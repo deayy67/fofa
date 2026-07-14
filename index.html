@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f8e7ed">
+<meta name="description" content="A special invitation to celebrate Fatima's 21st birthday.">
+<meta property="og:title" content="Fatima Turns 21">
+<meta property="og:description" content="July 22, 2026 at 5:00 PM">
+<meta property="og:image" content="fatima-graduation.jpg">
+<title>Fatima Turns 21</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&family=Parisienne&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+<div id="petals"></div>
+
+<section id="intro" class="intro">
+  <button id="openInvite" class="envelope" aria-label="Open invitation">
+    <span class="back"></span>
+    <span class="letter"><small>A SPECIAL INVITATION</small><b>For You</b><i>♡</i></span>
+    <span class="front"></span><span class="flap"></span><span class="seal">F</span>
+  </button>
+  <p>Tap to open</p>
+</section>
+
+<main id="site" class="site" aria-hidden="true">
+<section class="baby hero">
+  <div class="baby-card reveal"><img src="fatima-baby.jpg" alt="Fatima as a baby"></div>
+  <p class="eyebrow reveal">Every beautiful story begins with a little girl…</p>
+  <h1 class="script reveal">From a tiny smile to an unforgettable twenty-first birthday.</h1>
+  <span class="scroll">Scroll to continue ↓</span>
+</section>
+
+<section class="graduate">
+  <img src="fatima-graduation.jpg" alt="Fatima at graduation">
+  <div class="shade"></div>
+  <div class="graduate-copy reveal">
+    <small>YOU’RE INVITED TO CELEBRATE</small>
+    <h2>Fatima</h2>
+    <div>Turns <strong>21</strong></div>
+    <p>Twenty-one years of beautiful memories, laughter, and love.</p>
+  </div>
+</section>
+
+<section class="section story">
+  <header class="heading reveal"><small>A LITTLE STORY</small><h3>From Then to Now</h3></header>
+  <div class="timeline">
+    <article class="reveal"><span>1</span><div><small>BABY</small><b>A sweet beginning</b></div></article>
+    <article class="reveal"><span>2</span><div><small>GRADUATION</small><b>A beautiful milestone</b></div></article>
+    <article class="reveal"><span>3</span><div><small>FAVORITE MEMORIES</small><b>Moments worth keeping</b></div></article>
+    <article class="reveal"><span>4</span><div><small>TURNING 21</small><b>A new chapter begins</b></div></article>
+  </div>
+</section>
+
+<section class="section invite">
+  <header class="heading reveal">
+    <small>SAVE THE DATE</small><h3>Let’s Celebrate</h3>
+    <p>I would love for you to join me for a sweet evening filled with love, laughter, and unforgettable memories.</p>
+  </header>
+  <div class="details reveal">
+    <article><span>◷</span><div><small>DATE</small><b>Wednesday, July 22, 2026</b></div></article>
+    <article><span>⌚</span><div><small>TIME</small><b>5:00 PM</b></div></article>
+    <article><span>⌖</span><div><small>LOCATION</small><b>Richard’s Memorial Park</b></div></article>
+    <article><span>♡</span><div><small>CELEBRATION</small><b>Girls Only</b></div></article>
+  </div>
+  <div class="note reveal"><h4>Note</h4><p>Please bring a folding chair with you. Thank you! 🤍</p></div>
+</section>
+
+<section class="section countdown-section">
+  <header class="heading reveal"><small>COUNTING DOWN TO</small><h3>Fatima’s Big Day</h3></header>
+  <div class="countdown reveal">
+    <div><b id="days">00</b><span>Days</span></div>
+    <div><b id="hours">00</b><span>Hours</span></div>
+    <div><b id="minutes">00</b><span>Minutes</span></div>
+    <div><b id="seconds">00</b><span>Seconds</span></div>
+  </div>
+</section>
+
+<section class="section gallery-section">
+  <header class="heading reveal"><small>A FEW FAVORITE MOMENTS</small><h3>Fatima Through the Years</h3></header>
+  <div class="gallery">
+    <button class="wide reveal" data-src="fatima-phone.jpg"><img src="fatima-phone.jpg" alt="Fatima at the Wind Phone"></button>
+    <button class="reveal" data-src="fatima-lake-1.jpg"><img src="fatima-lake-1.jpg" alt="Fatima by the lake"></button>
+    <button class="reveal" data-src="fatima-lake-close.jpg"><img src="fatima-lake-close.jpg" alt="Fatima overlooking the lake"></button>
+    <button class="wide reveal" data-src="fatima-lake-2.jpg"><img src="fatima-lake-2.jpg" alt="Fatima near a tree"></button>
+  </div>
+</section>
+
+<section class="section ending">
+  <div class="end-card reveal">
+    <small>WITH LOVE</small>
+    <h3>Your presence will make my day even more special.</h3>
+    <p>Thank you for being part of my story. I can’t wait to celebrate with you. 🤍</p>
+    <div class="buttons">
+      <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Richard%27s+Memorial+Park">Open Party Location</a>
+      <button id="share">Share Invitation</button>
+    </div>
+    <div class="signature">Love, Fatima</div>
+    <small>JULY 22, 2026 • 5:00 PM</small>
+  </div>
+</section>
+</main>
+
+<div id="lightbox" class="lightbox"><button id="close">×</button><img id="largePhoto" alt="Expanded photo"></div>
+<script src="script.js"></script>
+</body>
+</html>
